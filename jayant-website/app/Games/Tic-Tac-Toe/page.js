@@ -1,5 +1,5 @@
 'use client'
-import Testimonals from '@/Component/UI-Blocks';
+import Testimonals from '@/Component/Testimonal';
 import React, { useState, useEffect } from 'react';
 
 // Helper function to calculate the winner

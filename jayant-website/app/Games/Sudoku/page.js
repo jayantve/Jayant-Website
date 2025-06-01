@@ -1,5 +1,5 @@
 'use client'
-import Testimonals from '@/Component/UI-Blocks';
+import Testimonals from '@/Component/Testimonal';
 import React, { useState, useEffect, useCallback } from 'react';
 
 // Helper function to create a deep copy of a 2D array

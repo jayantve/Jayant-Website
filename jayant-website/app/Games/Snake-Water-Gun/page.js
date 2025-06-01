@@ -12,9 +12,9 @@ export default function App() {
   const [isLoadingCommentary, setIsLoadingCommentary] = useState(false);
 
   const choices = [
-    { name: 'Stone', emoji: '🪨' },
-    { name: 'Paper', emoji: '📄' },
-    { name: 'Scissor', emoji: '✂️' },
+    { name: 'Snake', emoji: '🐍' },
+    { name: 'Water', emoji: '💧' },
+    { name: 'Gun', emoji: '🔫' },
   ];
 
   const getChoiceEmoji = (choiceName) => {
@@ -39,9 +39,9 @@ export default function App() {
     if (user === computer) {
       setResult('It\'s a Draw!');
     } else if (
-      (user === 'Stone' && computer === 'Scissor') ||
-      (user === 'Paper' && computer === 'Stone') ||
-      (user === 'Scissor' && computer === 'Paper')
+      (user === 'Snake' && computer === 'Water') ||
+      (user === 'Water' && computer === 'Gun') ||
+      (user === 'Gun' && computer === 'Snake')
     ) {
       setResult('You Win!');
       setScore((prevScore) => ({ ...prevScore, user: prevScore.user + 1 }));
@@ -53,7 +53,7 @@ export default function App() {
 
   const generateCommentary = async () => {
     setIsLoadingCommentary(true);
-    const prompt = `Given the following Stone Paper Scissor round:
+    const prompt = `Given the following Snake Water Gun round:
 User chose: ${userChoice}
 Computer chose: ${computerChoice}
 Result: ${result}
@@ -102,9 +102,9 @@ Provide a short, fun, and witty commentary or analysis about this round. Keep it
 
   return (
     <>
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-200 flex flex-col items-center justify-center p-4 font-inter">
+    <div className="min-h-screen bg-gradient-to-br from-green-100 to-teal-200 flex flex-col items-center justify-center p-4 font-inter">
       <h1 className="text-5xl md:text-6xl font-extrabold text-gray-800 mb-8 drop-shadow-lg">
-        Stone Paper Scissor
+        Snake Water Gun
       </h1>
 
       <div className="game-container bg-white p-8 rounded-xl shadow-2xl flex flex-col items-center max-w-lg w-full">
@@ -113,7 +113,7 @@ Provide a short, fun, and witty commentary or analysis about this round. Keep it
             <button
               key={choice.name}
               onClick={() => handleUserChoice(choice.name)}
-              className="px-6 py-3 bg-indigo-600 text-white text-xl font-semibold rounded-full shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-indigo-300 flex items-center justify-center space-x-2"
+              className="px-6 py-3 bg-blue-600 text-white text-xl font-semibold rounded-full shadow-md transition-all duration-300 ease-in-out transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-blue-300 flex items-center justify-center space-x-2"
               aria-label={`Choose ${choice.name}`}
             >
               <span>{choice.name}</span>
@@ -128,7 +128,7 @@ Provide a short, fun, and witty commentary or analysis about this round. Keep it
               ${showResults ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}
           >
             <p className="text-2xl text-gray-700 mb-2 flex items-center justify-center space-x-2">
-              Your Choice: <span className="font-bold text-indigo-800">{userChoice}</span>
+              Your Choice: <span className="font-bold text-blue-800">{userChoice}</span>
               <span className="text-4xl">{getChoiceEmoji(userChoice)}</span>
             </p>
             <p className="text-2xl text-gray-700 mb-4 flex items-center justify-center space-x-2">
