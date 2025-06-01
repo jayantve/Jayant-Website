@@ -5,3 +5,6 @@
   --foreground: #171717;
 }
 
+@theme{
+  --color-mint-500: #171717;
+}

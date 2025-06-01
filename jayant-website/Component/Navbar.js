@@ -4,7 +4,7 @@ import logo from '@/app/favicon.ico'
 
 const Navbar = () => {
   return (
-    <div className='bg-pink-200 shadow-md mx-auto my-2 rounded-lg sticky top-0 left-0 right-0 z-10'>
+    <div className='bg-gray-600 shadow-md mx-auto my-2 rounded-lg sticky top-0 left-0 right-0 z-10'>
       <header className="text-gray-600 body-font py-2 md:py-3">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
           <a
@@ -21,11 +21,14 @@ const Navbar = () => {
             <span className="ml-3 text-xl">Jayant Website</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="/" className="mr-4 md:mr-5 hover:text-gray-900">
+            <a href="/" className="mr-4 md:mr-5 text-white hover:text-gray-900">
               Home
             </a>
-            <a href="/Games" className="mr-4 md:mr-5 hover:text-gray-900">
+            <a href="/Games" className="mr-4 md:mr-5 text-white hover:text-gray-900">
               Games
+            </a>
+            <a href="/About-us" className="mr-4 md:mr-5 text-white hover:text-gray-900">
+              About us
             </a>
           </nav>
         </div>

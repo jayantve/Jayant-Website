@@ -2,23 +2,71 @@ import React from 'react'
 import Image from 'next/image'
 import profilepic from '@/app/favicon.ico'
 
+const footerCategoriesData = [
+  {
+    title: "Popular Games",
+    links: [
+      { name: "Memory Match", url: "/Games/Memory-Match" },
+      { name: "Stone Paper Scisor", url: "/games/Stone-Paper-Scisor" },
+      { name: "Snake Water Gun", url: "/Games/Snake-Water-Gun" },
+      { name: "Flappy Bird", url: "/Games/Flappy-Bird" },
+    ],
+  },
+  {
+    title: "Popular Games",
+    links: [
+      { name: "Tic Tac Toe", url: "/Games/Tic-Tac-Toe" },
+      { name: "Chess Online", url: "/Games/Chess" },
+      { name: "Sudoku", url: "/Games/Sudoku" },
+      { name: "Snake", url: "/Games/Snake" },
+    ],
+  },
+  {
+    title: "Company", // Changed from "CATEGORIES" for variety
+    links: [
+      { name: "About Us", url: "/About-us" },
+      { name: "Privacy Policy", url: "/privacy" },
+      { name: "Terms of Service", url: "/terms" },
+    ],
+  },
+];
+
 const Footer = () => {
-    return (
-        <div>
-            <footer className="text-black-900 bg-white-900 body-font relative bottom-0">
-                <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                    <a className="flex title-font font-medium items-center md:justify-start justify-center text-black-900">
-                        <Image hieght={100} width={100} alt="logo" src={profilepic} />
-                        <span className="ml-3 text-xl">Shree Krishna F/M Services </span>
+  return (
+    <footer className="text-gray-600 body-font bg-mint-500">
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-wrap md:text-left text-center order-first">
+          {footerCategoriesData.map((categoryGroup, index) => (
+            <div key={index} className="lg:w-1/3 md:w-1/2 w-1/3 px-4">
+              <h2 className="title-font font-large text-white tracking-widest text-sm mb-3">
+                {categoryGroup.title}
+              </h2>
+              <nav className="list-none mb-10">
+                {categoryGroup.links.map((link, linkIndex) => (
+                  <li key={linkIndex}>
+                    <a href={link.url} className="text-white hover:text-gray-800">
+                      {link.name}
                     </a>
-                    <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 SKFMS —
-                        <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@skfms</a>
-                    </p>
-
-                </div>
-            </footer>
+                  </li>
+                ))}
+              </nav>
+            </div>
+          ))}
         </div>
-    )
-}
+      </div>
+      <div className="bg-gray-100 bg-mint-500">
+        <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+            <Image alt='logo' src={profilepic} height={100} width={100}/>
+            <span className="ml-3 text-xl">Jayant Website</span>
+          </a>
+          <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
+            © 2025 Jayant Website —
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

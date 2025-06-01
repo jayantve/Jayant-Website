@@ -7,14 +7,14 @@ const Landing = () => {
             <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
                 <div className="text-center">
                     <h1 className="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-                        Shree Krishna FM Services
+                        Jayant Website
                     </h1>
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
                         Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
                         fugiat veniam occaecat.
                     </p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
-                        <a href="/About" className="text-sm/6 font-semibold text-gray-900">
+                        <a href="/About-us" className="text-sm/6 font-semibold text-gray-900">
                             Learn more <span aria-hidden="true">→</span>
                         </a>
                     </div>
