@@ -10,8 +10,10 @@ const Landing = () => {
                         Jayant Website
                     </h1>
                     <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                        fugiat veniam occaecat.
+                        Welcome to Jayant Website ! We are passionate gamers ourselves, and we created this 
+                        platform with one goal in mind: to bring the joy of online gaming directly to you. 
+                        We believe that gaming is more than just a pastime it's a way to connect, 
+                        challenge yourself, and escape into exciting new worlds.
                     </p>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
                         <a href="/About-us" className="text-sm/6 font-semibold text-gray-900">
