@@ -42,6 +42,14 @@ const Games = () => {
             description: "Flip cards to find matching pairs. Test your memory skills!",
             imageUrl: "https://media.istockphoto.com/id/1395632555/vector/colorful-hand-icon-set.jpg?s=612x612&w=0&k=20&c=g6r4Oms6euKipRCjlwLx-8MPs1pajjnP4_aK0r6HEeo=",
             link: "/Games/Stone-Paper-Scisor"
+        },
+        {
+            id: 6,
+            title: "Chess",
+            category: "Brain Teaser",
+            description: "Flip cards to find matching pairs. Test your memory skills!",
+            imageUrl: "https://cdn.pixabay.com/photo/2016/09/29/12/54/chess-1702761_1280.jpg",
+            link: "/Games/Stone-Paper-Scisor"
         }
     ];
 

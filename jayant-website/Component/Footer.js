@@ -33,7 +33,7 @@ const footerCategoriesData = [
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font bg-mint-500">
+    <footer className="text-gray-600 body-font bg-gray-900">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           {footerCategoriesData.map((categoryGroup, index) => (
@@ -54,7 +54,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="bg-gray-100 bg-mint-500">
+      <div className="bg-gray-100 bg-gray-900">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <Image alt='logo' src={profilepic} height={100} width={100}/>
