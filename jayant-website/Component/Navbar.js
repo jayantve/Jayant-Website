@@ -4,7 +4,7 @@ import logo from '@/app/favicon.ico'
 
 const Navbar = () => {
   return (
-    <div className='bg-gray-600 shadow-md mx-auto my-2 rounded-lg sticky top-0 left-0 right-0 z-10'>
+    <div className='bg-gray-600 shadow-md mx-auto my-2 rounded-lg sticky top-2 left-0 right-0 z-10'>
       <header className="text-gray-600 body-font py-2 md:py-3">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
           <a

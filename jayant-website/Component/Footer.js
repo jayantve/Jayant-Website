@@ -1,42 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
 import profilepic from '@/app/favicon.ico'
+import footerCategoriesData from '@/Component/TermsData.json'
 
-const footerCategoriesData = [
-  {
-    title: "Popular Games",
-    links: [
-      { name: "Memory Match", url: "/Memory-Match" },
-      { name: "Stone Paper Scisor", url: "/Stone-Paper-Scisor" },
-      { name: "Snake Water Gun", url: "/Snake-Water-Gun" },
-      { name: "Flappy Bird", url: "/Flappy-Bird" },
-    ],
-  },
-  {
-    title: "Popular Games",
-    links: [
-      { name: "Tic Tac Toe", url: "/Tic-Tac-Toe" },
-      { name: "Chess Online", url: "/Chess" },
-      { name: "Sudoku", url: "/Sudoku" },
-      { name: "Snake", url: "/Snake" },
-    ],
-  },
-  {
-    title: "Company", // Changed from "CATEGORIES" for variety
-    links: [
-      { name: "About Us", url: "/About-us" },
-      { name: "Privacy Policy", url: "/privacy" },
-      { name: "Terms of Service", url: "/terms" },
-    ],
-  },
-];
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font bg-gray-900">
+    <footer className="text-gray-600 body-font bg-black ">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
-          {footerCategoriesData.map((categoryGroup, index) => (
+          {footerCategoriesData.footerCategoriesData.map((categoryGroup, index) => (
             <div key={index} className="lg:w-1/3 md:w-1/2 w-1/3 px-4">
               <h2 className="title-font font-large text-white tracking-widest text-sm mb-3">
                 {categoryGroup.title}
@@ -54,7 +27,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="bg-gray-100 bg-gray-900">
+      <div className="bg-black">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <Image alt='logo' src={profilepic} height={100} width={100} className='rounded-full'/>
