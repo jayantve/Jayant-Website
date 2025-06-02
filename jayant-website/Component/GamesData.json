@@ -6,7 +6,7 @@
       "category": "Classic Games",
       "description": "A simple and fun game for two players. Get three in a row to win!",
       "imageUrl": "https://cdn.pixabay.com/photo/2023/01/22/23/16/tic-tac-toe-7737546_1280.jpg",
-      "link": "/Games/Tic-Tac-Toe"
+      "link": "/Tic-Tac-Toe"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "category": "Arcade",
       "description": "Grow your snake by eating food, but don't hit the walls or yourself!",
       "imageUrl": "https://cdn.pixabay.com/photo/2016/04/11/15/01/snake-1322240_960_720.jpg",
-      "link": "/Games/Snake"
+      "link": "/Snake"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "category": "Puzzle",
       "description": "Fill the 9x9 grid with digits so that each column, row, and the nine 3x3 subgrids contain all of the digits from 1 to 9.",
       "imageUrl": "https://cdn.pixabay.com/photo/2018/05/03/12/16/leisure-3371229_1280.jpg",
-      "link": "/Games/Sudoku"
+      "link": "/Sudoku"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "category": "Brain Teaser",
       "description": "Flip cards to find matching pairs. Test your memory skills!",
       "imageUrl": "https://cdn.pixabay.com/photo/2017/02/16/22/02/doubt-2072602_640.jpg",
-      "link": "/Games/Memory-Match"
+      "link": "/Memory-Match"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "category": "Classic Game",
       "description": "Choose correct option to beat computer and gain more points.",
       "imageUrl": "https://media.istockphoto.com/id/1395632555/vector/colorful-hand-icon-set.jpg?s=612x612&w=0&k=20&c=g6r4Oms6euKipRCjlwLx-8MPs1pajjnP4_aK0r6HEeo=",
-      "link": "/Games/Stone-Paper-Scisor"
+      "link": "/Stone-Paper-Scisor"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "category": "Brain Teaser",
       "description": "Move your pieces to play and win. Create your strategy To beat your opponent. Test your memory skills!",
       "imageUrl": "https://cdn.pixabay.com/photo/2016/09/29/12/54/chess-1702761_1280.jpg",
-      "link": "/Games/Chess"
+      "link": "/Chess"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "category": "Brain Teaser",
       "description": "Give answer of questions. Test your memory skills!",
       "imageUrl": "https://cdn.pixabay.com/photo/2016/06/13/07/59/pi-1453836_640.jpg",
-      "link": "/Games/Maths-Puzzle"
+      "link": "/Maths-Puzzle"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "category": "Classic Game",
       "description": "Choose correct option to beat computer and gain more points.",
       "imageUrl": "https://cdn.pixabay.com/photo/2024/11/27/15/49/ai-generated-9228632_640.png",
-      "link": "/Games/Snake-Water-Gun"
+      "link": "/Snake-Water-Gun"
     }
   ]
 }

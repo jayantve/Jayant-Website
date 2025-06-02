@@ -6,19 +6,19 @@ const footerCategoriesData = [
   {
     title: "Popular Games",
     links: [
-      { name: "Memory Match", url: "/Games/Memory-Match" },
-      { name: "Stone Paper Scisor", url: "/games/Stone-Paper-Scisor" },
-      { name: "Snake Water Gun", url: "/Games/Snake-Water-Gun" },
-      { name: "Flappy Bird", url: "/Games/Flappy-Bird" },
+      { name: "Memory Match", url: "/Memory-Match" },
+      { name: "Stone Paper Scisor", url: "/Stone-Paper-Scisor" },
+      { name: "Snake Water Gun", url: "/Snake-Water-Gun" },
+      { name: "Flappy Bird", url: "/Flappy-Bird" },
     ],
   },
   {
     title: "Popular Games",
     links: [
-      { name: "Tic Tac Toe", url: "/Games/Tic-Tac-Toe" },
-      { name: "Chess Online", url: "/Games/Chess" },
-      { name: "Sudoku", url: "/Games/Sudoku" },
-      { name: "Snake", url: "/Games/Snake" },
+      { name: "Tic Tac Toe", url: "/Tic-Tac-Toe" },
+      { name: "Chess Online", url: "/Chess" },
+      { name: "Sudoku", url: "/Sudoku" },
+      { name: "Snake", url: "/Snake" },
     ],
   },
   {
@@ -57,7 +57,7 @@ const Footer = () => {
       <div className="bg-gray-100 bg-gray-900">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-            <Image alt='logo' src={profilepic} height={100} width={100}/>
+            <Image alt='logo' src={profilepic} height={100} width={100} className='rounded-full'/>
             <span className="ml-3 text-xl">Jayant Website</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
