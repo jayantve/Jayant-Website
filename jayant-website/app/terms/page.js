@@ -1,4 +1,3 @@
-import TermsData from '@/Component/TermsData.json'
 
 const Terms = () => {
     return (

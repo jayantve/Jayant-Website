@@ -1,6 +1,6 @@
 
 const stats = [
-    { name: 'Apps', value: '8+' },
+    { name: 'Apps', value: '9+' },
     { name: 'Categories', value: '5+' },
     { name: 'User', value: '4,000+' },
     { name: 'Upcoming Apps', value: '10+' },
