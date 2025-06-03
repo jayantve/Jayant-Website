@@ -75,7 +75,7 @@
   ],
   "footerCategoriesData": [
     {
-      "title": "Popular Games",
+      "title": "Popular Apps",
       "links": [
         {
           "name": "Memory Match",
@@ -88,15 +88,11 @@
         {
           "name": "Snake Water Gun",
           "url": "/Snake-Water-Gun"
-        },
-        {
-          "name": "Flappy Bird",
-          "url": "/Flappy-Bird"
         }
       ]
     },
     {
-      "title": "Popular Games",
+      "title": "Popular Apps",
       "links": [
         {
           "name": "Tic Tac Toe",
@@ -126,10 +122,6 @@
         {
           "name": "Maths Puzzle",
           "url": "/Maths-Puzzle"
-        },
-        {
-          "name": "Terms of Service",
-          "url": "/terms"
         }
       ]
     }

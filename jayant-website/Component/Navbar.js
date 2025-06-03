@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import logo from '@/app/favicon.ico'
 
-const Navbar = () => {
+const Navbar = ({ className = '' }) => {
   return (
     <div className='bg-gray-600 shadow-md mx-auto my-2 rounded-lg sticky top-2 left-0 right-0 z-10'>
       <header className="text-gray-600 body-font py-2 md:py-3">
@@ -21,12 +21,23 @@ const Navbar = () => {
             <span className="ml-3 text-xl">Jayant Website</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="/" className="mr-4 md:mr-5 text-white hover:text-gray-900">
-              Home
+            <a href="/Search" className="mr-4 md:mr-5 text-white hover:text-gray-900">
+              <svg
+      className={`h-6 w-6 text-gray-800 dark:text-white ${className}`} // Tailwind classes for size and color, with a customizable className prop
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth="2"
+      aria-hidden="true" // For accessibility
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+      />
+    </svg>
             </a>
-            <a href="/About-us" className="mr-4 md:mr-5 text-white hover:text-gray-900">
-              About us
-            </a>
+            
           </nav>
         </div>
       </header>
