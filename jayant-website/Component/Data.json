@@ -1,0 +1,189 @@
+{
+  "gamesData": [
+    {
+      "id": 1,
+      "title": "Tic Tac Toe",
+      "category": "Classic Games",
+      "description": "A simple and fun game for two players. Get three in a row to win!",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/22/23/16/tic-tac-toe-7737546_1280.jpg",
+      "link": "/Tic-Tac-Toe"
+    },
+    {
+      "id": 2,
+      "title": "Snake",
+      "category": "Arcade",
+      "description": "Grow your snake by eating food, but don't hit the walls or yourself!",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/04/11/15/01/snake-1322240_960_720.jpg",
+      "link": "/Snake"
+    },
+    {
+      "id": 3,
+      "title": "Sudoku",
+      "category": "Puzzle",
+      "description": "Fill the 9x9 grid with digits so that each column, row, and the nine 3x3 subgrids contain all digits.",
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/05/03/12/16/leisure-3371229_1280.jpg",
+      "link": "/Sudoku"
+    },
+    {
+      "id": 4,
+      "title": "Memory Match",
+      "category": "Brain Teaser",
+      "description": "Flip cards to find matching pairs. Test your memory skills!",
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/02/16/22/02/doubt-2072602_640.jpg",
+      "link": "/Memory-Match"
+    },
+    {
+      "id": 5,
+      "title": "Stone Paper Scisor",
+      "category": "Classic Game",
+      "description": "Choose correct option to beat computer and gain more points.",
+      "imageUrl": "https://media.istockphoto.com/id/1395632555/vector/colorful-hand-icon-set.jpg?s=612x612&w=0&k=20&c=g6r4Oms6euKipRCjlwLx-8MPs1pajjnP4_aK0r6HEeo=",
+      "link": "/Stone-Paper-Scisor"
+    },
+    {
+      "id": 6,
+      "title": "Chess",
+      "category": "Brain Teaser",
+      "description": "Move your pieces to play and win. Create your strategy To beat your opponent.",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/09/29/12/54/chess-1702761_1280.jpg",
+      "link": "/Chess"
+    },
+    {
+      "id": 7,
+      "title": "Maths Puzzle",
+      "category": "Brain Teaser",
+      "description": "Give answer of questions. Test your memory skills!",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/06/13/07/59/pi-1453836_640.jpg",
+      "link": "/Maths-Puzzle"
+    },
+    {
+      "id": 8,
+      "title": "Snake Water Gun",
+      "category": "Classic Game",
+      "description": "Choose correct option to beat computer and gain more points.",
+      "imageUrl": "https://cdn.pixabay.com/photo/2024/11/27/15/49/ai-generated-9228632_640.png",
+      "link": "/Snake-Water-Gun"
+    },
+    {
+      "id": 9,
+      "title": "Calculator",
+      "category": "Calculation",
+      "description": "Calculate any thing which you want . Which is present.",
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/08/22/17/43/calculator-424564_640.jpg",
+      "link": "/Calculator"
+    }
+  ],
+  "footerCategoriesData": [
+    {
+      "title": "Popular Games",
+      "links": [
+        {
+          "name": "Memory Match",
+          "url": "/Memory-Match"
+        },
+        {
+          "name": "Stone Paper Scisor",
+          "url": "/Stone-Paper-Scisor"
+        },
+        {
+          "name": "Snake Water Gun",
+          "url": "/Snake-Water-Gun"
+        },
+        {
+          "name": "Flappy Bird",
+          "url": "/Flappy-Bird"
+        }
+      ]
+    },
+    {
+      "title": "Popular Games",
+      "links": [
+        {
+          "name": "Tic Tac Toe",
+          "url": "/Tic-Tac-Toe"
+        },
+        {
+          "name": "Chess Online",
+          "url": "/Chess"
+        },
+        {
+          "name": "Sudoku",
+          "url": "/Sudoku"
+        },
+        {
+          "name": "Snake",
+          "url": "/Snake"
+        }
+      ]
+    },
+    {
+      "title": "Popular Apps",
+      "links": [
+        {
+          "name": "Calculator",
+          "url": "/Calculator"
+        },
+        {
+          "name": "Maths Puzzle",
+          "url": "/Maths-Puzzle"
+        },
+        {
+          "name": "Terms of Service",
+          "url": "/terms"
+        }
+      ]
+    }
+  ],
+  "faqs":[
+  {
+    "id": 1,
+    "question": "Are all these apps free to use?",
+    "answer": "Yes, all the web games and applications provided on this website are completely free to use. You can enjoy them without any cost."
+  },
+  {
+    "id": 2,
+    "question": "Why should I use these apps?",
+    "answer": "Our platform offers a wide variety of free web games for entertainment and useful applications to assist with specific tasks. Whether you're looking for fun or functionality, you'll find something valuable here."
+  },
+  {
+    "id": 3,
+    "question": "Do I need to register or create an account to play games or use apps?",
+    "answer": "No, most of our games and applications do not require registration or an account. You can start playing or using them instantly. Some advanced features or saving progress might require an optional login, but it's not mandatory for basic use."
+  },
+  {
+    "id": 4,
+    "question": "Are these games and apps safe to use?",
+    "answer": "Absolutely. We prioritize your safety and security. All games and apps are thoroughly checked for malware and harmful content. We only host secure and reliable applications."
+  },
+  {
+    "id": 5,
+    "question": "Are the games and apps compatible with mobile devices?",
+    "answer": "Yes, our website and most of our games and applications are designed to be fully responsive and compatible with various devices, including desktops, tablets, and smartphones. Enjoy them on the go!"
+  },
+  {
+    "id": 6,
+    "question": "How often are new games and apps added?",
+    "answer": "We are constantly working to expand our collection! New games and useful applications are added regularly. Keep an eye on our 'New Releases' section or subscribe to our newsletter for updates."
+  },
+  {
+    "id": 7,
+    "question": "Can I suggest a new game or app feature?",
+    "answer": "We love hearing from our users! If you have a suggestion for a new game, an app idea, or a feature improvement, please visit our 'Contact Us' page and send us your feedback. Your input helps us grow."
+  },
+  {
+    "id": 8,
+    "question": "I'm experiencing a technical issue. What should I do?",
+    "answer": "If you encounter any technical problems, please try refreshing the page or clearing your browser's cache. If the issue persists, contact our support team through the 'Contact Us' page, providing details about the problem and your device."
+  },
+  {
+    "id": 9,
+    "question": "Do these apps collect my personal data?",
+    "answer": "We are committed to protecting your privacy. Our free games and apps generally do not collect personal identifying information. For more details, please refer to our Privacy Policy."
+  },
+  {
+    "id": 10,
+    "question": "Can I play games offline?",
+    "answer": "Most of our web games require an internet connection to load and function. However, some simpler games might have limited offline capabilities once loaded. Dedicated offline apps would need to be downloaded separately."
+  }
+]
+}
